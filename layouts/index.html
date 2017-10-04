@@ -2,15 +2,20 @@
 
 <div class="header">
   <h1>{{ .Title }}</h1>
-  <h2>{{ .Site.Params.subtitle }}</h2>
+  <h2>{{ .Params.subtitle }}</h2>
 </div>
 
 <div class="content">
+
+  {{.Content}}
+
+<!--
   {{ range ( .Paginate (where .Data.Pages "Type" "post")).Pages }}
     {{ .Render "summary"}}
   {{ end }}
 
   {{ partial "pagination.html" . }}
+-->
 
 </div>
 
