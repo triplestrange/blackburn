@@ -83,9 +83,13 @@ i {
 }
 
 .robot-detail {
-  flex: 0 0 45%;
+  flex: 0 0 50%;
 }
 
 .robot-img {
-  flex: 0 0 45%;
+  flex: 0 0 50%;
+}
+
+.robot-img img {
+max-width: 100%;
 }
