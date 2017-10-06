@@ -88,8 +88,7 @@ i {
 
 .robot-detail {
   flex: 0 0 50%;
-  -webkit-flex: 0 0 50%;
-  justify-content: left;
+  -webkit-flex: 0 0 50%
 }
 
 .robot-img {
