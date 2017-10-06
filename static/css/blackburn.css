@@ -75,3 +75,17 @@ i {
 .pagination a {
   color: #265778;
 }
+
+.robot-info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.robot-detail {
+  flex: 0 0 45%;
+}
+
+.robot-img {
+  flex: 0 0 45%;
+}
