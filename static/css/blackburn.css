@@ -78,16 +78,22 @@ i {
 
 .robot-info {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
+
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+
+  justify-content: center;
 }
 
 .robot-detail {
   flex: 0 0 50%;
+  -webkit-flex: 0 0 50%;
 }
 
 .robot-img {
   flex: 0 0 50%;
+  -webkit-flex: 0 0 50%;
 }
 
 .robot-img img {
