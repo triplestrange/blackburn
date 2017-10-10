@@ -1,4 +1,4 @@
 dist: trusty
 
 script:
-  - rebuild-site.sh
+  - ./rebuild-site.sh
